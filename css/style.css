@@ -1,0 +1,57 @@
+body {
+  font-size: 1.2rem;
+}
+
+#container {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+  background-color: #a5c9ab;
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: #13648c;
+}
+
+.resultBox {
+  padding: 0 2rem 1rem;
+}
+
+img {
+  max-width: 50vw;
+}
+
+#loading {
+  color: #fff;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+
+input[type='text'] {
+  width: 100%;
+  font-size: inherit;
+  border: none;
+  background: #fff;
+  outline: none;
+}
+
+button {
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+  font-size: inherit;
+  color: #fff;
+  border: none;
+  background: #13648c;
+}
